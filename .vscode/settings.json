@@ -1,0 +1,71 @@
+{
+  "workbench.colorTheme": "Solarized Light",
+  "window.zoomLevel": 1,
+  "editor.fontSize": 23,
+  "editor.lineHeight": 36,
+  "workbench.iconTheme": "material-icon-theme",
+  "volar.inlayHints.eventArgumentInInlineHandlers": false,
+  "tabnine.experimentalAutoImports": true,
+  "window.commandCenter": false,
+  "files.autoSave": "onWindowChange",
+  "editor.autoClosingBrackets": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.minimap.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "workbench.commandPalette.experimental.suggestCommands": true,
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.experimental.cloudChanges.partialMatches.enabled": true,
+  "workbench.quickOpen.preserveInput": true,
+  "remote.tunnels.access.preventSleep": true,
+  "git.showPushSuccessNotification": true,
+  // 去掉代码结尾的分号
+  "prettier.semi": false,
+  // 使用带引号替代双引号
+  "prettier.singleQuote": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  // 定义函数参数括号前的空格处理方式
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "editor.unicodeHighlight.allowedLocales": {
+    "ja": true
+  },
+  // Path Intellisense 的配置
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.showHiddenFiles": true,
+  "path-intellisense.autoSlashAfterDirectory": false,
+  "path-intellisense.autoTriggerNextSuggestion": false,
+  // ESLint 的配置
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // Code Runner 的配置
+  "code-runner.executorMapByGlob": {
+    "pom.xml": "cd $dir && mvn clean package",
+    "*.test.js": "tap",
+    "*.js": "node"
+  },
+  "code-runner.executorMap": {
+    "code-runner.defaultLanguage": "javascript"
+  }
+}

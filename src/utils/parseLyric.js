@@ -12,7 +12,7 @@ export default function parseLyric (lrc) {
   const lines = lrc.split('\n')
   const lyric = lines.map(line => {
     // 提取时间
-    const matches = line.match(/^\[(\d{2}:\d{2}\.\d{2})\]/g)
+    const matches = line.match(/^\[(\d{2}:\d{2}\.\d{2,3})\]/g)
     if (matches) {
       /**
        * 时间
